@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    min-height: 590px;
+    min-height: 493.5px;
     background-color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -49,8 +49,11 @@ main h1 {
     
 }
 
+.carousel-inner img {
+    width: 600px;
+}
+
 footer {
-    height: 70px;
     background-color:#006EFF;
     color: white;
 }
