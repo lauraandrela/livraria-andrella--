@@ -1,0 +1,56 @@
+/* DOCUMENTO CSS */
+
+/*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px darkred solid; */
+}
+
+body {
+    height: 700px;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    min-height: 590px;
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.imagens {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; padding-bottom: 50px;
+}
+
+.imagens img {
+    width: 400px;
+}
+
+.text {
+    text-align: center;
+    margin: 50px;
+    font-size: 25px;
+}
+
+.accordion {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer {
+    height: 70px;
+    background-color:#006EFF;
+    color: white;
+}
